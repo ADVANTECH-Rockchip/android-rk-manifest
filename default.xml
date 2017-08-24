@@ -15,25 +15,25 @@
   <project remote="advantech-github" name="linux-rk" path="kernel" revision="android-6.0.1"/>
 
 <!-- Advantech rk Android code -->
-  <project remote="advantech-github" name="android_rk_bionic" path="bionic" revision="android-6.0.1_r55"/>
-  <project remote="advantech-github" name="android_rk_bootable" path="bootable" revision="android-6.0.1_r55"/>
-  <project remote="advantech-github" name="android_rk_build" path="build" revision="android-6.0.1_r55">
+  <project remote="advantech-github" name="android_rk_bionic" path="bionic" revision="android-6.0.1-r55"/>
+  <project remote="advantech-github" name="android_rk_bootable" path="bootable" revision="android-6.0.1-r55"/>
+  <project remote="advantech-github" name="android_rk_build" path="build" revision="android-6.0.1-r55">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project remote="advantech-github" name="android_rk_device" path="device" revision="android-6.0.1_r55">
+  <project remote="advantech-github" name="android_rk_device" path="device" revision="android-6.0.1-r55">
     <copyfile dest="buildspec.mk" src="rockchip/common/buildspec-rk3288.mk"/>
     <copyfile dest=".classpath" src="rockchip/common/.classpath"/>
     <copyfile dest="mkimage.sh" src="rockchip/common/mkimage.sh"/>
     <copyfile dest="build.sh" src="rockchip/common/build.sh"/>
   </project>
-  <project remote="advantech-github" name="android_rk_external" path="external" revision="android-6.0.1_r55"/>
-  <project remote="advantech-github" name="android_rk_frameworks" path="frameworks" revision="android-6.0.1_r55"/>
-  <project remote="advantech-github" name="android_rk_hardware" path="hardware" revision="android-6.0.1_r55"/>
-  <project remote="advantech-github" name="android_rk_packages" path="packages" revision="android-6.0.1_r55"/>
-  <project remote="advantech-github" name="android_rk_prebuilts" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" revision="android-6.0.1_r55"/>
-  <project remote="advantech-github" name="android_rk_rkst" path="rkst" revision="android-6.0.1_r55"/>
-  <project remote="advantech-github" name="android_rk_system" path="system" revision="android-6.0.1_r55"/>
-  <project remote="advantech-github" name="android_rk_vendor" path="vendor" revision="android-6.0.1_r55"/>
+  <project remote="advantech-github" name="android_rk_external" path="external" revision="android-6.0.1-r55"/>
+  <project remote="advantech-github" name="android_rk_frameworks" path="frameworks" revision="android-6.0.1-r55"/>
+  <project remote="advantech-github" name="android_rk_hardware" path="hardware" revision="android-6.0.1-r55"/>
+  <project remote="advantech-github" name="android_rk_packages" path="packages" revision="android-6.0.1-r55"/>
+  <project remote="advantech-github" name="android_rk_prebuilts" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" revision="android-6.0.1-r55"/>
+  <project remote="advantech-github" name="android_rk_rkst" path="rkst" revision="android-6.0.1-r55"/>
+  <project remote="advantech-github" name="android_rk_system" path="system" revision="android-6.0.1-r55"/>
+  <project remote="advantech-github" name="android_rk_vendor" path="vendor" revision="android-6.0.1-r55"/>
 
 <!-- Android Source Code from Google Unchanged AOSP project--> 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
