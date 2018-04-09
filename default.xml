@@ -7,12 +7,12 @@
            remote="aosp"
            sync-j="4" />
 
-   <remote name="advantech-github" 
-           fetch="https://github.com/zengwei18488/" />
+   <remote name="advantech-github"
+           fetch="https://github.com/ADVANTECH-Rockchip/" />
 
 <!-- Advantech rk Devices Kernel and U-Boot -->
   <project remote="advantech-github" name="uboot-rk" path="u-boot" revision="android-6.0.1"/>
-  <project remote="advantech-github" name="linux-rk" path="kernel" revision="android-6.0.1"/>
+  <project remote="advantech-github" name="kernel-rk" path="kernel" revision="android-6.0.1"/>
 
 <!-- Advantech rk Android code -->
   <project remote="advantech-github" name="android_rk_bionic" path="bionic" revision="android-6.0.1-r55"/>
