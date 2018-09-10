@@ -17,9 +17,9 @@
     <copyfile dest="build.sh" src="rockchip/common/build.sh"/>
   </project>
   <project name="android_rk_external" path="external" remote="advantech-github" revision="3345d7d02aa2cad5edf749e0ac60e405db690be0" upstream="android-6.0.1-r55"/>
-  <project name="android_rk_frameworks" path="frameworks" remote="advantech-github" revision="dc68a62c942e6139a8f87d3c29e2a3a2b6104dab" upstream="android-6.0.1-r55"/>
+  <project name="android_rk_frameworks" path="frameworks" remote="advantech-github" revision="041fb7a6966cc2e6db7305e2ea1daf1517b61590" upstream="android-6.0.1-r55"/>
   <project name="android_rk_hardware" path="hardware" remote="advantech-github" revision="dd5f51dd8342254e229a6dfa4df0dc4a462115e8" upstream="android-6.0.1-r55"/>
-  <project name="android_rk_packages" path="packages" remote="advantech-github" revision="4848a5ef0ff01a44380a3d423203f52a6448d056" upstream="android-6.0.1-r55"/>
+  <project name="android_rk_packages" path="packages" remote="advantech-github" revision="d2b4d49440c8bf401697082be70578576182b128" upstream="android-6.0.1-r55"/>
   <project name="android_rk_prebuilts" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="advantech-github" revision="4d72344fb7eb70f7937f87dbbffae0548ea58985" upstream="android-6.0.1-r55"/>
   <project name="android_rk_rkst" path="rkst" remote="advantech-github" revision="c4aea18517b160b55ab0daae00d73a01e883e1a0" upstream="android-6.0.1-r55"/>
   <project name="android_rk_system" path="system" remote="advantech-github" revision="1c593304af8f2bfed6dbb680cbc4505849b96e00" upstream="android-6.0.1-r55"/>
