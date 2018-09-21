@@ -10,7 +10,7 @@
   <project name="android_rk_build" path="build" remote="advantech-github" revision="dd07985aeb740bf9197466bee771a037c909ce2e" upstream="android-6.0.1-r55">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="android_rk_device" path="device" remote="advantech-github" revision="de1071773fcb424b2463c46d5d97383b6f545a89" upstream="android-6.0.1-r55">
+  <project name="android_rk_device" path="device" remote="advantech-github" revision="d40f2a622aa833f94100c0f031bed829423af48f" upstream="android-6.0.1-r55">
     <copyfile dest="buildspec.mk" src="rockchip/common/buildspec-rk3288.mk"/>
     <copyfile dest=".classpath" src="rockchip/common/.classpath"/>
     <copyfile dest="mkimage.sh" src="rockchip/common/mkimage.sh"/>
@@ -41,7 +41,7 @@
   <project groups="device" name="device/google/accessory/demokit" revision="7dfe7f89a3b174709c773fe319531006e46440d9" upstream="refs/tags/android-6.0.1_r55"/>
   <project groups="device,fugu,broadcom_pdk,generic_fs" name="device/google/atv" revision="23013bc225b0b1287801a9fca3719ba31b6a5153" upstream="refs/tags/android-6.0.1_r55"/>
   <project groups="pdk" name="device/sample" revision="d52feb0c91fcd449d6c146df299889ce072ef19b" upstream="refs/tags/android-6.0.1_r55"/>
-  <project name="kernel-rk" path="kernel" remote="advantech-github" revision="d2c0cc767c017ef7aca92266ef0a215087f1a7b8" upstream="android-6.0.1"/>
+  <project name="kernel-rk" path="kernel" remote="advantech-github" revision="f30fb8ec641a20a09ddf7ad1afd2b78dd20659de" upstream="android-6.0.1"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/tags/android-6.0.1_r55"/>
   <project groups="pdk" name="platform/art" path="art" revision="4d934333f76396c7115f347c1377e4e853e738a1" upstream="refs/tags/android-6.0.1_r55"/>
   <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="307311e915b66acb9f2070fefed2bc2a073eca3d" upstream="refs/tags/android-6.0.1_r55"/>
@@ -424,5 +424,5 @@
   <project groups="pdk" name="platform/system/security" path="system/security" revision="ddab0bb51320af9f277d98a4e36e77ea527503e5" upstream="refs/tags/android-6.0.1_r55"/>
   <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" upstream="refs/tags/android-6.0.1_r55"/>
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" revision="4d16c0d448da78b6dd16bb5bba1baa14dcbb0997" upstream="refs/tags/android-6.0.1_r55"/>
-  <project name="uboot-rk" path="u-boot" remote="advantech-github" revision="d05b65dcabe4d346786579a7d7ef4a16a541d80a" upstream="android-6.0.1"/>
+  <project name="uboot-rk" path="u-boot" remote="advantech-github" revision="0d03b958cfd6c18b747275177e26814ecc728e6b" upstream="android-6.0.1"/>
 </manifest>
