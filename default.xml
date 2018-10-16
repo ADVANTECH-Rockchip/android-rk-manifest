@@ -34,6 +34,7 @@
   <project remote="advantech-github" name="android_rk_rkst" path="rkst" revision="android-6.0.1-r55"/>
   <project remote="advantech-github" name="android_rk_system" path="system" revision="android-6.0.1-r55"/>
   <project remote="advantech-github" name="android_rk_vendor" path="vendor" revision="android-6.0.1-r55"/>
+  <project remote="advantech-github" name="android_rk_patchs" path="patchs" revision="android-6.0.1"/>
 
 <!-- Android Source Code from Google Unchanged AOSP project--> 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
