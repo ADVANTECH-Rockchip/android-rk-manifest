@@ -46,9 +46,7 @@
   <project remote="advantech-github" name="android_rk_vendor" path="vendor" revision="android-8.1.0-r46"/>
   <project remote="advantech-github" name="android_rk_rkbin" path="rkbin" revision="android-8.1.0-r46"/>
   
-
-  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
+<!-- Android Source Code from Google Unchanged AOSP project--> 
   <project path="art" name="platform/art" groups="pdk" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
