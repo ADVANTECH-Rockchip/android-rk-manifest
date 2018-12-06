@@ -30,6 +30,7 @@
     <linkfile dest="bootstrap.bash" src="soong/bootstrap.bash"/>
   </project>
   <project remote="advantech-github" name="android_rk_cts" path="cts" revision="android-8.1.0-r46"/>
+  <project remote="advantech-github" name="android_rk_test" path="test" revision="android-8.1.0-r46"/>
   <project remote="advantech-github" name="android_rk_device" path="device" revision="android-8.1.0-r46">
     <copyfile dest="buildspec.mk" src="rockchip/rk3288/buildspec-rk3288.mk"/>
     <copyfile dest="build.sh" src="rockchip/rk3288/build.sh"/>
