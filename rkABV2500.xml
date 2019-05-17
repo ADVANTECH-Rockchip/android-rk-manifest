@@ -42,7 +42,7 @@
   <project groups="device" name="device/google/accessory/demokit" revision="7dfe7f89a3b174709c773fe319531006e46440d9" upstream="refs/tags/android-6.0.1_r55"/>
   <project groups="device,fugu,broadcom_pdk,generic_fs" name="device/google/atv" revision="23013bc225b0b1287801a9fca3719ba31b6a5153" upstream="refs/tags/android-6.0.1_r55"/>
   <project groups="pdk" name="device/sample" revision="d52feb0c91fcd449d6c146df299889ce072ef19b" upstream="refs/tags/android-6.0.1_r55"/>
-  <project name="kernel-rk" path="kernel" remote="advantech-github" revision="eb5d2e9fe7d29ab9dd753f25852b1441fb14f293" upstream="android-6.0.1"/>
+  <project name="kernel-rk" path="kernel" remote="advantech-github" revision="dc6e281bb7f7583f0dbdcc738eadc214fd1b4bce" upstream="android-6.0.1"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/tags/android-6.0.1_r55"/>
   <project groups="pdk" name="platform/art" path="art" revision="4d934333f76396c7115f347c1377e4e853e738a1" upstream="refs/tags/android-6.0.1_r55"/>
   <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="307311e915b66acb9f2070fefed2bc2a073eca3d" upstream="refs/tags/android-6.0.1_r55"/>
